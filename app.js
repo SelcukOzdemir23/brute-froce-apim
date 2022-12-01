@@ -8,7 +8,7 @@ require("dotenv").config();
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5000","https://brute-froce-api.onrender.com"],
+    origin: ["http://localhost:5000","https://bruteforce-8is0.onrender.com"],
   })
 ); // Use cors
 app.use(express.json());
