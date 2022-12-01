@@ -7,8 +7,8 @@ require("dotenv").config();
 // app.use(cors()); 
 app.use(
   cors({
-    // credentials: true,
-    // origin: "http://localhost:5000",
+    credentials: true,
+    origin: ["http://localhost:5000","https://brute-froce-api.onrender.com"],
   })
 ); // Use cors
 app.use(express.json());
