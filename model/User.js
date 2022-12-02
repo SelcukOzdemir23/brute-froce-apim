@@ -8,12 +8,12 @@ const userSchema = new Schema({
   email: {
     type: String,
     required: true,
-    unique: false,
+    
   },
   password: {
     type: String,
     required: true,
-    minLength: 6,
+    minLength: 8,
   },
 }); // Create user schema
 
