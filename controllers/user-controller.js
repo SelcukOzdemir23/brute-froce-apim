@@ -22,9 +22,9 @@ const signup = async (req, res, next) => {
     return res.status(400).json({ message: "Please fill out all fields!" }); // Return error if not all fields are filled out
   }
 
-  if (existingUser) {
-    return res.status(400).json({ message: "User already exists!" }); // Return error if user already exists
-  }
+  // if (existingUser) {
+  //   return res.status(400).json({ message: "User already exists!" }); // Return error if user already exists
+  // }
 
   // var format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
 
