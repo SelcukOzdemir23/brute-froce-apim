@@ -8,7 +8,7 @@ require("dotenv").config();
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5000","https://bruteforce-8is0.onrender.com"],
+    origin: ["http://localhost:5000","https://bruteforce-8is0.onrender.com","https://bruteforcebsg.netlify.app"],
   })
 ); // Use cors
 app.use(express.json());
